@@ -3,8 +3,8 @@ body {
 	background-image: repeating-linear-gradient(135deg,#ffffff0f 0px,#ffffff0f 64px,#ffffff00 64px,#ffffff00 128px), repeating-linear-gradient(-135deg,#ffffff0f 0px,#ffffff0f 64px,#ffffff00 64px,#ffffff00 128px), linear-gradient(135deg,#fcba03,#4c2196);
 	height: 100%;
 	font-family: "Raleway";
-	color: #3f3f3f7f
 }
 h1 {
 	letter-spacing: 1.25em;
+	color: #3f3f3f7f
 }
