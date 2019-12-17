@@ -14,3 +14,13 @@ a a:link a:visited a:active {
 a:hover {
 	color: #ffffff;
 }
+
+ul.thinglist {
+	list-style: none;
+}
+
+li.thinglist:before {
+	content: "-";
+	padding-left: 8px;
+	padding-right: 8px;
+}
