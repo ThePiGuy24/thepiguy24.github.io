@@ -6,7 +6,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-a a:link a:visited a:active {
+a, a:link, a:visited, a:active {
 	color: #eeeeee;
 	text-decoration: none;
 }
