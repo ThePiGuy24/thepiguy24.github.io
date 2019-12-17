@@ -5,3 +5,8 @@ body {
 	color: #eeeeee;
 	font-family: 'Roboto', sans-serif;
 }
+
+a {
+	colour: #eeeeee;
+	text-decoration: none;
+}
