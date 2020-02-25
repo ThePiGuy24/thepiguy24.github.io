@@ -5,7 +5,11 @@ var font = {}
 
 function extractFont(fontData) {
 	fontChars = fontData.split("\n")
-	console.log(fontChars)
+	for (fontChar of fontChars) {
+		f = fontChar.split(":")
+		font[f[0]] = f[1]
+	}
+	console.log(font)
 }
 
 function initRenderer(s) {
